@@ -1,0 +1,79 @@
+body {
+  background-color: #fff;
+  font-family: sans-serif;
+  padding: 2vmin;
+}
+
+/* FLEXBOX TOGGLE */
+/* .topnav {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #ff0072;
+} */
+
+/* GRID TOGGLE */
+.topnav {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  background-color: #323dc6;
+  box-sizing: border-box;
+  padding: 0;
+  transition: padding 3s;
+}
+
+/* Style the topnav links */
+.topnav a {
+    color: #f3f3f3;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+.contentContainer {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.item-4x {
+  grid-column-end: span 1;
+}
+
+.item-8x {
+  grid-column-end: span 1;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: darkgray;
+}
+
+/* On screens that are 600px wide or more, make the menu links stack on top of each other instead of next to each other */
+@media screen and (min-width: 600px) {
+
+  /* GRID TOGGLE */
+  .topnav {
+    background-color: #cee416;
+    opacity: 1.0;
+    padding: 4vmin;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .contentContainer {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-column-gap: 4vmin;
+  }
+
+  .item-4x {
+    grid-column-end: span 4;
+  }
+
+  .item-8x {
+    grid-column-end: span 8;
+  }
+}

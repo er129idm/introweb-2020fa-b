@@ -1,0 +1,88 @@
+body, html {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.navWrapper {
+  display: flex;
+  justify-content: center;
+  background-color: #222;
+  padding: 32px;
+}
+
+.navMenu {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 80vw;
+}
+
+a, a:visited {
+  color: #fff;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  background-color: #333;
+  background-image: url('https://loremflickr.com/1920/1080/harry+styles');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+h1 {
+  color: #fff;
+  font-size: 16vmin;
+}
+
+.insetContainer {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+.threeColumnContainer {
+  display: flex;
+}
+
+.imageBlock {
+  width: 100%;
+}
+
+.imageBlock img {
+  width: 98%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.twoColumnContainer {
+  display: flex;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+}

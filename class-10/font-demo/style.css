@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Metal+Mania|Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,800,800i&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Open Sans';
+}
+
+body > html {
+  margin: 0px;
+  padding: 0px;
+
+}
+
+h1 {
+  font-family: 'Metal Mania';
+}
+
+h2 {
+
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 5vw 10vw 0 10vw;
+}
+
+.bodyContainer {
+  display: flex;
+  width: 80vw;
+}
+
+.bodyContainer > p {
+  padding: 1vw;
+  font-size: 3vmin;
+  line-height: 5vmin;
+  letter-spacing: -0.02em;
+  font-weight: 900;
+  font-style: italic;
+}
