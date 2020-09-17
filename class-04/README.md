@@ -7,7 +7,7 @@
 * Intro to UNIX/command line
   * [Clean Up the Fridge!](https://github.com/effieVision/command-line-refrigerator-lab)
 
-* See the [in-class-demo](in-class-demo) folder for the basic .html + .css siter we made.
+* See the [in-class-demo](in-class-demo) folder for the basic .html + .css site we made.
 
 ## Homework part A - Clean the Fridge!
 
@@ -19,9 +19,9 @@
 
   * Email me this link with the following project link.
 
-## Homework part B - Restaurant / Venue time!
+## Homework part B - Promo Website!
 
-You will be making a simple website for a fictional restaurant, club, venue, storefront, etc... of your own making, or, for an existing restaurant you love.
+You will be making a simple one page website to promote a particular artist, musician, album, book, author, etc... that you love!
 
 * Using the Git, create a new repo for your project.
 
@@ -39,14 +39,14 @@ You will be making a simple website for a fictional restaurant, club, venue, sto
   
   * External CSS file
 
-  * In the body, add a large heading or image with the name or branding of your location.
+  * In the body, add a large heading or image with the name or branding of your subject.
 
-  * Below this large heading, add a smaller, sub-heading of the location's slogan, or tells the user a bold statement about this place
+  * Be smart about the content- what makes sense for the piece you are promoting?
 
-  * Be smart about the content- what makes sense for the place you are making?
+  * Be smart about the overall "aesthetic" of the site– what makes sense for the tone of the piece you are promoting?
 
 #### Deliverable:
 
-  * Correctly save and push your work back up to GitHub, and set the repo to be visible via Github Pages ( yourUserName.github.io/restaurant-web )
+  * Correctly save and push your work back up to GitHub, and set the repo to be visible via Github Pages
 
-  * Email me this link.
+  * Place this link in our Google Doc masterlist.
